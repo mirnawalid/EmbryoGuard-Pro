@@ -1,0 +1,34 @@
+# Database (regenerated automatically on first run — don't commit logged data)
+*.db
+*.sqlite3
+dashboard/incubator.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Arduino build artifacts
+*.hex
+*.bin
+build/
+.pio/
+
+# OS / editor junk
+.DS_Store
+__MACOSX/
+Thumbs.db
+.vscode/
+.idea/
+
+# Large media not meant for the repo (link these externally instead — see README)
+*.mp4
+*.mov
+
+# Optional: skip if you don't want the full presentation deck in the repo
+# (it's ~11MB — link to Google Slides / Canva instead if you can)
+Doc/EmbryoGuard Pro Presentation.pptx
